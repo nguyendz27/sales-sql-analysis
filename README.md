@@ -1,8 +1,8 @@
-Dự Án Phân Tích Dữ Liệu Bán Hàng Bằng SQL
+### Dự Án Phân Tích Dữ Liệu Bán Hàng Bằng SQL
 
 ---
 
-Tổng Quan Dự Án
+## Tổng Quan Dự Án
 
 Dự án sử dụng SQL để phân tích dữ liệu bán hàng nhằm đánh giá hiệu suất kinh doanh, hành vi khách hàng, hiệu quả sản phẩm và xu hướng doanh thu.
 
