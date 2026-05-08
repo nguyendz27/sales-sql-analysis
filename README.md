@@ -108,14 +108,21 @@ Dự án bao gồm 3 bảng chính:
 ## Cấu Trúc Project
 
 sales-sql-analysis/
+
    dataset/
+   
      sales_data.xlsx
+     
    sql/
+   
      01_schema.sql
      02_basic_analysis.sql
      03_advanced_analysis.sql
+     
    insights/
+   
      findings.md
+     
  README.md
 
 ---
