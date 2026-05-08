@@ -1,8 +1,8 @@
-### Dự Án Phân Tích Dữ Liệu Bán Hàng Bằng SQL
+# Dự Án Phân Tích Dữ Liệu Bán Hàng Bằng SQL
 
 ---
 
-## Tổng Quan Dự Án
+# Tổng Quan Dự Án
 
 Dự án sử dụng SQL để phân tích dữ liệu bán hàng nhằm đánh giá hiệu suất kinh doanh, hành vi khách hàng, hiệu quả sản phẩm và xu hướng doanh thu.
 
@@ -10,25 +10,25 @@ Mục tiêu của dự án là rèn luyện kỹ năng SQL cho Data Analyst đ�
 
 ---
 
-# Bộ Dữ Liệu
+## Bộ Dữ Liệu
 
 Dự án bao gồm 3 bảng chính:
 
-## Customers
+### Customers
 
 - CustomerID
 - CustomerName
 - Segment
 - City
 
-## Products
+### Products
 
 - Product
 - StandardPrice
 - Cost
 - Category
 
-## Orders
+### Orders
 
 - OrdersID
 - OrderDate
@@ -41,7 +41,7 @@ Dự án bao gồm 3 bảng chính:
 
 ---
 
-# Công Cụ Sử Dụng
+## Công Cụ Sử Dụng
 
 - SQL Server
 - Excel
@@ -49,7 +49,7 @@ Dự án bao gồm 3 bảng chính:
 
 ---
 
-# Kỹ Năng SQL Được Sử Dụng
+## Kỹ Năng SQL Được Sử Dụng
 
 - JOIN
 - GROUP BY
@@ -64,37 +64,37 @@ Dự án bao gồm 3 bảng chính:
 
 ---
 
-# Các Câu Hỏi Business
+## Các Câu Hỏi Business
 
-## Phân tích doanh thu
+### Phân tích doanh thu
 
 - Tổng doanh thu và lợi nhuận là bao nhiêu?
 - Doanh thu thay đổi theo thời gian như thế nào?
 - Sản phẩm nào tạo ra doanh thu cao nhất?
 
-## Phân tích sản phẩm
+### Phân tích sản phẩm
 
 - Danh mục sản phẩm nào tạo lợi nhuận cao nhất?
 - Sản phẩm nào có biên lợi nhuận cao nhất?
 
-## Phân tích khách hàng
+### Phân tích khách hàng
 
 - Nhóm khách hàng nào đóng góp doanh thu lớn nhất?
 - Khách hàng nào chi tiêu nhiều nhất?
 - Tỷ lệ khách hàng quay lại là bao nhiêu?
 
-## Phân tích bán hàng
+### Phân tích bán hàng
 
 - Nhân viên bán hàng nào có hiệu suất tốt nhất?
 
-## Chỉ số nâng cao
+### Chỉ số nâng cao
 
 - Giá trị trung bình mỗi đơn hàng (AOV) là bao nhiêu?
 - Doanh thu cộng dồn tăng trưởng như thế nào?
 
 ---
 
-# Insight Nổi Bật
+## Insight Nổi Bật
 
 - Laptop là danh mục sản phẩm tạo lợi nhuận cao nhất.
 - Doanh thu có xu hướng tăng trưởng ổn định theo thời gian.
@@ -105,26 +105,22 @@ Dự án bao gồm 3 bảng chính:
 
 ---
 
-# Cấu Trúc Project
+## Cấu Trúc Project
 
 sales-sql-analysis/
-│
-├── dataset/
-│ └── sales_data.xlsx
-│
-├── sql/
-│ ├── 01_schema.sql
-│ ├── 02_basic_analysis.sql
-│ └── 03_advanced_analysis.sql
-│
-├── insights/
-│ └── findings.md
-│
-└── README.md
+   dataset/
+     sales_data.xlsx
+   sql/
+     01_schema.sql
+     02_basic_analysis.sql
+     03_advanced_analysis.sql
+   insights/
+     findings.md
+ README.md
 
 ---
 
-# Kết Quả Đạt Được
+## Kết Quả Đạt Được
 
 Thông qua dự án này, tôi đã cải thiện:
 
@@ -136,15 +132,15 @@ Thông qua dự án này, tôi đã cải thiện:
 
 ---
 
-# 👨‍💻 Tác Giả
+## Tác Giả
 
-Bùi Nguyễn ANh Nguyên
+Bùi Nguyễn Anh Nguyên
 
 ---
 
-Sales SQL Analysis Project
+# Sales SQL Analysis Project
 
-## Project Overview
+# Project Overview
 
 This project analyzes sales data to evaluate business performance, customer behavior, product profitability, and sales trends using SQL.
 
@@ -152,25 +148,25 @@ The goal of this project is to practice SQL for data analysis while applying bus
 
 ---
 
-# Dataset
+## Dataset
 
 The dataset includes 3 main tables:
 
-## Customers
+### Customers
 
 - CustomerID
 - CustomerName
 - Segment
 - City
 
-## Products
+### Products
 
 - Product
 - StandardPrice
 - Cost
 - Category
 
-## Orders
+### Orders
 
 - OrdersID
 - OrderDate
@@ -183,7 +179,7 @@ The dataset includes 3 main tables:
 
 ---
 
-# Tools Used
+## Tools Used
 
 - SQL Server
 - Excel
@@ -191,7 +187,7 @@ The dataset includes 3 main tables:
 
 ---
 
-# SQL Skills Demonstrated
+## SQL Skills Demonstrated
 
 - JOIN
 - GROUP BY
@@ -206,37 +202,37 @@ The dataset includes 3 main tables:
 
 ---
 
-# Business Questions
+## Business Questions
 
-## Revenue Analysis
+### Revenue Analysis
 
 - What is the total revenue and profit?
 - How does revenue change over time?
 - Which products generate the most revenue?
 
-## Product Analysis
+### Product Analysis
 
 - Which category generates the highest profit?
 - Which products have the highest profit margin?
 
-## Customer Analysis
+### Customer Analysis
 
 - Which customer segment contributes the most revenue?
 - Who are the top customers?
 - What is the repeat customer rate?
 
-## Sales Analysis
+### Sales Analysis
 
 - Which salesperson performs best?
 
-## Advanced Metrics
+### Advanced Metrics
 
 - What is the Average Order Value (AOV)?
 - How does cumulative revenue grow over time?
 
 ---
 
-# Key Insights
+## Key Insights
 
 - Laptop products generate the highest profit.
 - Revenue shows a steady upward trend over time.
@@ -247,26 +243,22 @@ The dataset includes 3 main tables:
 
 ---
 
-# Project Structure
+## Project Structure
 
 sales-sql-analysis/
-│
-├── dataset/
-│ └── sales_data.xlsx
-│
-├── sql/
-│ ├── 01_schema.sql
-│ ├── 02_basic_analysis.sql
-│ └── 03_advanced_analysis.sql
-│
-├── insights/
-│ └── findings.md
-│
-└── README.md
+   dataset/
+     sales_data.xlsx
+   sql/
+     01_schema.sql
+     02_basic_analysis.sql
+     03_advanced_analysis.sql
+   insights/
+     findings.md
+ README.md
 
 ---
 
-# Project Outcomes
+## Project Outcomes
 
 This project helped strengthen:
 
@@ -278,6 +270,6 @@ This project helped strengthen:
 
 ---
 
-# Author
+## Author
 
 Bui Nguyen Anh Nguyen
